@@ -1,0 +1,16 @@
+.banner img{
+    width: 100%;
+    display: block;
+}
+
+.banner{
+    position: relative;
+}
+
+.writingonBanner{
+    position: absolute;
+    top: 50%;
+    color: #d7c8bb;
+    left: 39%;
+    font-size: 18px;
+}

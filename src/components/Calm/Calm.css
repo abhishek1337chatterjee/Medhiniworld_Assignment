@@ -1,0 +1,56 @@
+.calmContainer{
+    background-color: #d7c8bb;
+    width: 100%;
+}
+
+.calmContainer .heading{
+    color: #864e39;
+    padding: 50px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.calmContainer .question{
+    text-align: center;
+    color: #864e39;
+    font-weight: 600;
+}
+
+.calmContainer .suggestions{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #864e39;
+}
+
+.calmContainer .buttonUnwind{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.buttonUnwind button{
+    padding: 15px;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    background-color: #864e39;
+    color: #d7c8bb;
+    font-weight: 100;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.6s ease;
+}
+
+.buttonUnwind button:hover{
+    transform: scale(1.05);
+}
+
+.restAssured{
+    font-size: 15px;
+    color: #864e39;
+    font-weight: 100;
+    display: flex;
+    margin-right: 50px;
+    justify-content: end;
+    padding-bottom: 10px;
+}
